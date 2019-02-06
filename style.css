@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  color: white;
+}
+.full-page{
+  width: 100vw;
+  height: 100vh;
+}
+main{
+  height: calc(100vh - 90px);
+  display: flex;
+}
+.side-left{
+background-color: black;
+width: 230px;
+}
+.side-left-content{
+  height: 100%;
+  padding: 15px 15px 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px
+}
+.options-bar-top, .recently-played{
+  opacity: .6;
+}
+.bar-top .header-bar-top img{
+  width: 130px;
+}
+.bar-top .options-bar-top img{
+  width: 24px;
+  margin-right: 15px;
+}
+.side-left a{
+  height: 40px;
+  color: white
+}
+.bar-top .recently-played h4{
+  font-weight: normal;
+  letter-spacing: .16em;
+  font-size: 11px;
+}
+#download{
+  opacity: .6;
+}
+#download img{
+  width: 20px;
+  margin-right: 15px;
+}
+#profile{
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+#account{
+  padding: 10px 0;
+  border-top: 1px solid #404040;
+}
+
+
+
+.side-right{
+background-color: #181818;
+width: calc(100vw - 230px);
+}
+.footer{
+  height: 90px;
+  background: #282828;
+  border-top: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 80;
+}
