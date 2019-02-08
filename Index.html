@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title></title>
@@ -12,13 +13,13 @@
 <!-- LEFT SIDE -->
         <div class="side-left">
           <div class="side-left-content">
-<!-- TOP BAR -->
+  <!-- TOP BAR -->
             <div class="bar-top">
-<!-- LOGO -->
+    <!-- LOGO -->
               <div class="header-bar-top">
                 <img src="img/logo.svg" alt="">
               </div>
-<!-- OPTIONS BAR -->
+    <!-- OPTIONS BAR -->
               <div class="options-bar-top my-4">
                 <div class="d-flex flex-column">
                   <a class="d-flex align-items-center" href="#"><img src="img/search.svg" alt=""><span>Cerca</span></a>
@@ -26,42 +27,284 @@
                   <a class="d-flex align-items-center" href="#"><img src="img/libreria.svg" alt="">La tua libreria</a>
                 </div>
               </div>
-<!-- RECENTLY PLAYED -->
+    <!-- RECENTLY PLAYED -->
               <div class="recently-played font-weight-lighter">
                 <h4 class="mb-3">ASCOLTATI DI RECENTE</h4>
                 <div>
-                  <div>Deep Focus</div>
-                  <h4>PLAYLIST</h4>
+                  <div>
+                    <div><a>Deep Focus</a></div>
+                    <h4>PLAYLIST</h4>
+                  </div>
+                  <div>
+                    <div><a>Peaceful Piano</a></div>
+                    <h4>PLAYLIST</h4>
+                  </div>
                 </div>
               </div>
             </div>
-<!-- BOTTOM BAR -->
+  <!-- BOTTOM BAR -->
             <div class="bar-bottom">
               <div class="d-flex flex-column">
                 <div id="download"><a class="d-flex align-items-center" href="#"><img src="img/download.svg" alt=""><span>Installa app</span></a></div>
                 <div id="account"><a class="d-flex align-items-center" href="#"><img id="profile" src="img/profile.jpg" alt="">Giulio Belfiore</a></div>
               </div>
-
-
-
-
             </div>
           </div>
         </div>
-
-
-
-
-
-        <div class="side-right">
-          brani
-        </div>
+<!-- RIGHT SIDE -->
+        <section class="padding">
+          <div class="side-right px-4">
+            <div class="side-right-nav py-4">
+              <div class="d-flex justify-content-center flex-wrap">
+                <div class="">
+                  <a href="#">IN EVIDENZA</a>
+                </div>
+                <div class="">
+                  <a href="#">PODCAST</a>
+                </div>
+                <div class="">
+                  <a href="#">CLASSIFICHE</a>
+                </div>
+                <div class="">
+                  <a href="#">GENERI E MOOD</a>
+                </div>
+                <div class="">
+                  <a href="#">NUOVE USCITE</a>
+                </div>
+                <div class="">
+                  <a href="#">SCOPRI</a>
+                </div>
+              </div>
+            </div>
+            <section>
+              <h1 class="my-4">Le nuove uscite migliori</h1>
+              <div class="container-fluid">
+                <div class="row content-cover">
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <div class="">
+                          <img src="img/friday.jpeg" alt="">
+                        </div>
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">New Music Friday Italia</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <img src="img/releaseradar.jpeg" alt="">
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">Release Radar</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section>
+              <h1 class="my-4">Nuovi album e singoli</h1>
+              <div class="container-fluid">
+                <div class="row content-cover">
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <img src="img/cover1.jpeg" alt="">
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">VIDA</a>
+                      </div>
+                      <div class="info-artist">
+                        <a href="#">Luis Fonsi</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <img src="img/cover2.jpeg" alt="">
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">Paranoia Airlines</a>
+                      </div>
+                      <div class="info-artist">
+                        <a href="#">Fedez</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <img src="img/cover3.jpeg" alt="">
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">Adrian</a>
+                      </div>
+                      <div class="info-artist">
+                        <a href="#">Adriano Celentano</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <img src="img/cover4.jpeg" alt="">
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">MM Vol. 3</a>
+                      </div>
+                      <div class="info-artist">
+                        <a href="#">Madman</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <img src="img/cover5.jpeg" alt="">
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">ZEROSEI</a>
+                      </div>
+                      <div class="info-artist">
+                        <a href="#">Frenetik&Orang3</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <img src="img/cover1.jpeg" alt="">
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">VIDA</a>
+                      </div>
+                      <div class="info-artist">
+                        <a href="#">Luis Fonsi</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <img src="img/cover2.jpeg" alt="">
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">Paranoia Airlines</a>
+                      </div>
+                      <div class="info-artist">
+                        <a href="#">Fedez</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <img src="img/cover3.jpeg" alt="">
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">Adrian</a>
+                      </div>
+                      <div class="info-artist">
+                        <a href="#">Adriano Celentano</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <img src="img/cover4.jpeg" alt="">
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">MM Vol. 3</a>
+                      </div>
+                      <div class="info-artist">
+                        <a href="#">Madman</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center col-sm-4 col-md-3 col-lg-2">
+                    <div class="box-cover">
+                      <div class="cover">
+                        <img src="img/cover5.jpeg" alt="">
+                        <button id="cover-play"type="button" name="button"><i class="far fa-play-circle"></i></button>
+                      </div>
+                      <div class="info-cover mt-1">
+                        <a href="#">ZEROSEI</a>
+                      </div>
+                      <div class="info-artist">
+                        <a href="#">Frenetik&Orang3</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
       </main>
-
-      <div class="footer ">
-        footer
-      </div>
-
-
+<!-- FOOTER -->
+      <footer class="d-flex align-items-center justify-content-between px-3">
+  <!-- LEFT SIDE -->
+        <div class="playing-bar-left d-flex align-items-center">
+          <div class="cover-playing">
+            <a href="#"><img src="img/cover-playing.jpeg" alt=""></a>
+          </div>
+          <div class="track-info ellipsis">
+            <div class="track-info-name ellipsis">
+              <a href="#">A Prominent Response</a>
+            </div>
+            <div class="track-info-artist ellipsis">
+              <a href="#">Piotr Miteska</a>
+            </div>
+          </div>
+          <div class="">
+            <button class="control-button" title="Aggiungi ai tuoi brani preferiti"><i class="far fa-heart"></i></button>
+          </div>
+        </div>
+  <!-- CENTER -->
+        <div class="playing-bar-center d-flex flex-column align-items-center justify-content-center">
+          <div class="player-controls-buttons mb-2 d-flex justify-content-between">
+            <button type="button" name="button"><i class="fas fa-random"></i></button>
+            <button type="button" name="button"><i class="fas fa-step-backward"></i></button>
+            <button id="play-button"type="button" name="button"><i class="fas fa-play"></i></button>
+            <button type="button" name="button"><i class="fas fa-step-forward"></i></button>
+            <button type="button" name="button"><i class="fas fa-redo-alt"></i></button>
+          </div>
+          <div class="playback-bar d-flex align-items-center justify-content-space-between">
+            <div class="playback-bar-progress-time">0:00</div>
+            <div class="time-bar">
+              <div class="progress-bar-bg"></div>
+            </div>
+            <div class="playback-bar-progress-time">6:46</div>
+          </div>
+        </div>
+  <!-- RIGHT SIDE -->
+        <div class="playing-bar-right d-flex flex-row-reverse">
+          <div class="volume-bar d-flex align-items-center">
+            <button type="button" name="button"><i class="fas fa-volume-up"></i></button>
+            <div class="time-bar ">
+              <div class="progress-bar-bg"></div>
+            </div>
+          </div>
+          <button type="button" name="button"><i class="fas fa-desktop"></i></button>
+          <button type="button" name="button"><i class="fas fa-align-justify"></i></button>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
